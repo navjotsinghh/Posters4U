@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="elevation_8">8dp</dimen>
+    <dimen name="corner_radius_8">8dp</dimen>
+    <integer name="poster_columns">3</integer>
+    <dimen name="imageView_150">150dp</dimen>
+    <dimen name="imageView_225">225dp</dimen>
+    <dimen name="title_size_16">16sp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Posters4U</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="poster_fragment_label">Poster Fragment</string>
+
+    <string name="no_network_message">You are currently offline, please try again later!</string>
+    <string name="internet_lost_message">You seem to be offline!</string>
+    <string name="internet_available_message">Voila! You are back online.</string>
+
+</resources>
