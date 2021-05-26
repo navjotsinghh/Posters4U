@@ -7,7 +7,7 @@
 
         <variable
             name="poster"
-            type="com.bellmedia.posters.api.data.models.entities.Content" />
+            type="com.jotbot.posters.api.data.models.entities.Content" />
     </data>
 
     <androidx.cardview.widget.CardView

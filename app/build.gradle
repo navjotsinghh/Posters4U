@@ -5,11 +5,19 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        Key0 {
+            storeFile file('/Users/nav/Downloads/deployment_cert.der')
+            storePassword 'Konvicted!6'
+            keyAlias 'Key0'
+            keyPassword 'Konvicted!6'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.bellmedia.posters"
+        applicationId "com.jotbot.posters"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -55,7 +63,7 @@ dependencies {
     // Logging interceptor
     implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
 
-    testImplementation 'junit:junit:4.+'
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
